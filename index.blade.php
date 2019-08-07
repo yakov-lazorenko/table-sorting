@@ -77,6 +77,6 @@
 
 @section('custom-scripts')
     <script src="{{ asset('/lib/jquery/jquery-3.3.1.min.js') }}"></script>
-    <script src="{{ asset('/js/admin/core.js') }}"></script>
+    <script src="{{ asset('/js/table-sorting.js') }}"></script>
 @endsection
 
