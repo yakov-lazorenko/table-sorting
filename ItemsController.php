@@ -18,7 +18,8 @@ class ItemsController extends Controller
     public function index(Request $request)
     {
         /**
-         *   Конфиг для сортировки списка аптек по колонкам таблицы (в БД) аптек и связанных таблиц.
+         *   Конфиг для таблицы `items` (модель Items) по колонкам таблицы (в БД) `items`
+         *   и связанных с ней таблиц `holder` (модель Holder) и `location` (модель Location).
          */
         $columnsConfig = [
             ['name' => 'id', 'sort'=>true, 'search'=>true, 'default_sort' => 'asc'],

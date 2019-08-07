@@ -67,7 +67,7 @@
               </tbody>
             </table>
 
-            {!! $pharmacies->appends($tableSorting->getRequestParams())->render(); !!}
+            {!! $items->appends($tableSorting->getRequestParams())->render(); !!}
 
         </div>
 
