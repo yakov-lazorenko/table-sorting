@@ -1,0 +1,23 @@
+
+/* Table Sorting and Text Search */
+.sort-switch{
+    margin-left: 10px;
+    color: #aaa;
+}
+
+.sort-link, .sort-link:hover, .sort-link:active{
+    color: #000;
+}
+
+.text_search_filter{
+    float: right;
+    text-align: right;
+}
+
+.text_search_filter button{
+    margin-top: -4px;
+    margin-left: 10px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+/* END - Table Sorting */
